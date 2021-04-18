@@ -1,0 +1,36 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;            /* Footer height */
+  }
+  
+  .maincontainer {
+    display: flex;
+  }
+
+  .container {
+    float: left;
+  }
+
+  .container2 {
+    float: right;
+  }
+  
+  .chart1{
+      float: left;
+      width: 800px;
+      height: 480px;
+      border-style: solid;
+  }
+  
+  .chart2{
+      float: right;
+      width: 800px;
+      height: 480px;
+      border-style: solid;
+  }
